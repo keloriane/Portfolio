@@ -1175,3 +1175,6 @@ p {
 
 #root {
   height: 100%; }
+
+.img-wrapper .intro-content.becentral-content {
+  height: 400px; }
