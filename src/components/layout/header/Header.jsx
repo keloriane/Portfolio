@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-
-import ToolBar from './ToolBar'
 import Canvas from './Canvas';
 import Nav from '../nav/Nav';
 
@@ -18,7 +16,6 @@ class Header extends React.Component{
       
     <div>
     <Nav />
-    <ToolBar />
       <Canvas />  
     </div>
     )
