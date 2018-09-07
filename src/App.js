@@ -20,10 +20,10 @@ class App extends Component {
       <div className="app">       
       <Route render={({location})=>(
           <Switch location={location}>
-            <Route exact path="Portfolio/" component={Home} />
-            <Route exact path="Portfolio/becentral" component={Becentral} />
-            <Route exact path="Portfolio/wibicom" component={Wibicom} />
-            <Route exact path="Portfolio/hive" component={Hive} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/becentral" component={Becentral} />
+            <Route exact path="/wibicom" component={Wibicom} />
+            <Route exact path="/hive" component={Hive} />
           </Switch>
             )}/>
             </div>
