@@ -1,0 +1,209 @@
+@import'./../modules/_variables.scss';
+
+.img-wrapper{
+  position: relative;
+  
+  width: 585px;
+  overflow: hidden;
+  .intro-img{
+    backface-visibility: hidden;
+    background-color: $blue;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    transform: translate3d(0px, 0px, 0px) scale(0, 1);
+    transform-origin: top right;
+  }
+  
+  .intro-content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -30px 0;
+    opacity: 0;
+    transition: all .5s ease;
+    &.becentral-content{
+      background-image:url('./../../../assets/img/king-inauguration.png');
+    }
+    &.wibicom-content{
+      background-image:url('./../../../assets/img/omismo-inte.png'); 
+    }
+    &.hive-content{
+      background-image:url('./../../../assets/img/hiveDesign.png'); 
+    }
+  }
+}
+.wibicom-logo{
+  width: 200px;
+
+}
+
+.introduction-container{
+
+  margin-top: 100px;
+  display: flex;
+  
+
+  .container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 1280px;
+    min-width: 320px;
+    width:100%;
+  }
+
+     
+      margin-right: 60px;
+      position: relative; 
+      .video-button{
+        width: 95px;
+        height: 120px;
+        position: absolute;
+        background: $blue;
+        color: #fff;
+        text-align: center;
+        bottom: -52px;
+        left: -44px;
+      }
+    }
+    .intro-description{
+      margin: 50px;
+      .title-container{
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        font-size: 50px;    
+        color: $blue;
+        overflow: hidden;
+      }
+      .descriptions{
+     
+        max-width: 400px;
+      }
+    }
+  
+
+
+@media screen and (max-width:1270px){
+ .img-wrapper{
+        position: relative;
+        
+        width: 585px;
+        height: 380px;
+        overflow: hidden;
+        .intro-img{
+          backface-visibility: hidden;
+          background-color: $blue;
+          height: 100%;
+          position: absolute;
+          width: 100%;
+          z-index: 2;
+          transform: translate3d(0px, 0px, 0px) scale(0, 1);
+          transform-origin: top right;
+        }
+        
+        .intro-content{
+          position: relative;
+          width: 100%;
+          height: 100%;
+          display: block;
+          background-image:url('./../../../assets/img/king-inauguration.png');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: -30px 0;
+          opacity: 0;
+          transition: all .5s ease;
+        }
+      }
+
+  .introduction-container{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    flex-direction: column;
+
+    .container{
+      flex-direction: column;
+    }
+  }
+    .intro-img{
+   
+      position: relative; 
+      .video-button{
+        width: 95px;
+        height: 120px;
+        position: absolute;
+        background: $blue;
+        color: #fff;
+        text-align: center;
+        bottom: -52px;
+        left: -43px;
+      }
+    }
+   
+        .section-container{
+
+        
+        .phase-container{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+
+          .phase-wrapper{
+            flex-direction: column-reverse;
+            .description{
+              margin-top: 25px;
+            }
+          }
+        }
+      }
+    }
+    
+    .image-container{
+      width: 530px;
+      overflow: hidden;
+      position: relative;
+       img{
+   
+      }
+    }
+@media screen and (max-width: 740px){
+  .section-container .phase-container .phase-wrapper .image-container{
+    width: 530px;
+    margin: 0 auto;
+    overflow: hidden;
+   
+  }
+
+}
+  .details-work{
+    font-size: 24px;
+    color: $blue;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  @media screen and (max-width: 580px){
+    .introduction-container .img-wrapper{
+      width: 320px;
+      margin: 0 auto;
+      .intro-content{
+        background-position: -75px 0;
+      }
+    }
+  }
+
+  @media screen and (max-width: 650px){
+
+    .intro-img .video-button{
+      position: relative;
+      left: 0px;
+      bottom: 123px;
+    }
+  }
