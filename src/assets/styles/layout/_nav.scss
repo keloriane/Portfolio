@@ -1,0 +1,17 @@
+.navBar{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  background-color: pink;
+  width: 100%;
+  background-color: #0E263C;
+  justify-content: flex-end;
+  
+  
+}
+.navBar a{
+  color: #fff;
+  text-decoration: none;
+  margin-left: 25px;
+
+}

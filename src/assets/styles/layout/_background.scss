@@ -1,0 +1,34 @@
+.bg-divide{
+  height: 209%;
+  position: absolute;
+  width: 1px;
+  z-index: -2;
+  background-color: #f3f3f3;
+   
+}
+
+.bg-divide-1{
+  left:16.66%;
+}
+.bg-divide-2{
+  left:33.33%;
+}
+.bg-divide-3{
+  left:49.99%;
+}
+.bg-divide-4{
+  left:66.66%;
+}
+.bg-divide-5{
+  left:83.33%;
+}
+.bg-divide-6{
+  left:100%;
+}
+.hive-logo{
+  max-width: 210px;
+}
+
+#root{
+  height: 100%;
+}

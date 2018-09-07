@@ -1,0 +1,53 @@
+
+
+.headerContainer{
+    background-color: #0E263C;
+    color: #fff;
+    height: 80vh;
+
+}
+.headline{
+    width: 750px ;
+    margin: 0 auto;
+}
+
+.nameTitle{
+    font-size: 49px;
+    font-weight: 100;
+}
+
+.mainTitle{
+    font-family: proxima-light;
+    font-size: 32px;
+}
+
+
+
+.bg-divide{
+    height: 100%;
+    position: absolute;
+    width: 1px;
+    background-color: #f3f3f3;
+    z-index: -1; 
+}
+
+
+
+.bg-divide-1{
+    left:16.66%;
+}
+.bg-divide-2{
+    left:33.33%;
+}
+.bg-divide-3{
+    left:49.99%;
+}
+.bg-divide-4{
+    left:66.66%;
+}
+.bg-divide-5{
+    left:83.33%;
+}
+.bg-divide-6{
+    left:100%;
+}

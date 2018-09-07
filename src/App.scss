@@ -1,0 +1,18 @@
+@import './assets/styles/app.scss';
+*{
+  margin: 0;
+  padding: 0;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p{
+  color: $grey;
+}
+#root{
+  height: 100%;
+}
+.img-wrapper .intro-content.becentral-content{
+  height:400px;
+}

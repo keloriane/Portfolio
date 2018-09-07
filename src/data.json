@@ -1,0 +1,20 @@
+{
+  "cards":[
+    {
+      
+      "title": "Becentral",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio pariatur quia quis aliquid odit nesciunt quaerat obcae.",
+      "image": "Becentral-header"
+    },
+    {
+      "title": "Omismo",  
+      "description": "Omismo Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio pariatur quia quis aliquid odit nesciunt quaerat obcae.",
+      "image": "Omismo-head"
+    },
+    {
+      "title": "Hive",
+      "description": "Hive Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio pariatur quia quis aliquid odit nesciunt quaerat obcae.",
+      "image": "Hive-header"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+
+@import'./layout/_about.scss';
+@import'./layout/_background.scss';
+@import'./layout/_journey.scss'; 
+@import'./layout/_canvas.scss'; 
+@import'./layout/_portfolio.scss';
+@import'./layout/_panel.scss'; 
+@import'./layout/_nav.scss';
+@import'./layout/_target.scss';
+@import'./layout/_headline.scss';
+@import'./layout/_footer.scss'; 
+@import'./layout/_skills.scss'; 
+// @import './../../components/model/assets/headline.scss';
+// @import './../../components/model/assets/introduction.scss';
+// @import './../../components/model/assets/phase1.scss';
+@import'./modules/_variables.scss';
+
+
+
+
+
+@font-face {
+  font-family: 'Proxima-Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/font/ProximaNova-Regular.otf'); 
+
+   
+}
+body{
+  font-family: 'Proxima-Nova';
+  height: 100%;
+}
+
+h3{
+  font-size: 5rem;
+  color: $blue;
+  margin-left: 0;
+  font-weight: normal;
+}
+@media screen and (max-width:480px){
+  h3{
+    font-size: 2rem;
+  }
+}
+ 
+  .fade, .fade-enter{
+    opacity: 0;
+    z-index:1;
+
+  }
+  .fade-appear-active,.fade-enter.fade-enter-active,.fade-enter-done{
+    opacity: 1;
+    transition: opacity 300ms linear 150ms;
+  }
+  .fade-exit{
+    opacity: 1;
+  }
+  .fade-exite.fade-exit-active{
+    opacity: 0;
+    transition: opacity 150ms linear;
+  }
+

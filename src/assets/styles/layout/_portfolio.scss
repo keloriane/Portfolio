@@ -1,0 +1,176 @@
+@import './../modules/_variables.scss';
+
+.portfolio-section{
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 200px;
+    height: auto;
+    h3{
+        font-weight: bold;
+        line-height: normal;
+        font-size: 60px; 
+        color: $blue;
+    }
+}
+
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    .card{
+        
+        height: 375px;
+        width: 400px;
+        padding: 20px;
+      
+   
+        // border-right: 0.75px solid #DCD3D3;
+        // border-bottom: 0.75px solid #DCD3D3;
+        background-color: #fff;
+       margin: 60px;
+        text-align: center;
+     
+        padding-bottom: 5px;
+
+
+        
+        
+        .card-header{
+            height: 135px;
+            background-repeat: no-repeat;
+           
+            &.Becentral-header{
+                background-image: url('./assets/img/Becentral_Head.png');
+                background-position: center center;
+                background-size: 100%;
+            }
+            &.Omismo-header{
+                background-image: url('./assets/img/omismo-head.png');
+                background-position: center center no-repeat;
+                background-size: 100%;
+            }
+            &.Hive-header{
+                background-image: url('./assets/img/hive-head.png');
+                background-position: 0% 100%;
+                background-size: 109%;
+            }
+        }
+        .card-body{
+            .card-title{
+                margin-top: 10px;
+                font-size: 26px;
+                color: $blue;
+                text-transform: uppercase;
+            }
+            .underline{
+                width: 105px;
+                background: $gradient;
+                height: 0.5px;
+                margin: 0 auto;
+                margin-top: 5px;
+
+            }
+            .card-description{
+                margin-top: 16px;
+                font-style: normal;
+                font-weight: normal;
+                line-height: 22px;
+                font-size: 16px;
+                text-align: center;
+
+                color: #818181;
+            }
+        }
+    }
+}
+
+.button-container{
+    margin-top: 60px
+}
+.innerbtn{
+    background-image: -webkit-linear-gradient(132.69deg, #0E263C 0.54%, #FBBF10 63.39%, #FFD65F 98.92%); /* For Chrome and Safari */
+     background-image:    -moz-linear-gradient(132.69deg, #0E263C 0.54%, #FBBF10 63.39%, #FFD65F 98.92%); /* For old Fx (3.6 to 15) */
+     background-image:     -ms-linear-gradient(132.69deg, #0E263C 0.54%, #FBBF10 63.39%, #FFD65F 98.92%); /* For pre-releases of IE 10*/
+     background-image:      -o-linear-gradient(132.69deg, #0E263C 0.54%, #FBBF10 63.39%, #FFD65F 98.92%); /* For old Opera (11.1 to 12.0) */
+     background-image:         linear-gradient(132.69deg, #0E263C 0.54%, #FBBF10 63.39%, #FFD65F 98.92%); /* Standard syntax; must be last */
+     color:transparent;
+     -webkit-background-clip: text;
+     background-clip: text;
+ }
+ .btn:hover span .innerbtn{
+   color:#FFF;
+ }
+ .btn {
+   
+    
+     background-image:linear-gradient(132.69deg, #0E263C 0.54%, #FBBF10 63.39%, #FFD65F 98.92%);
+    
+     box-sizing: border-box;
+ 
+     display: block;
+     font: 1.125rem 'Oswald', Arial, sans-serif; /*18*/
+     
+     letter-spacing: 1px;
+     margin: 0 auto;
+     padding: 1px;
+     position: relative;
+     text-decoration: none;
+     text-transform: uppercase;
+     width: 158px;
+     height: 42px;
+     z-index: 2;
+ }
+ 
+ .btn:hover {
+     color: #fff;
+ }
+ 
+ .btn span {
+     align-items: center;
+     background: #fff;
+     
+     display: flex;
+     
+     justify-content: center;
+     height: 100%;
+     transition: background .5s ease;
+     width: 100%;
+ }
+
+ .btn:hover span {
+     background: transparent;
+ }
+
+ .label-text{
+     margin-left: 5px;
+ }
+
+ .button-content{
+     margin-top: 35px;
+ }
+
+
+ @media screen and (max-width:1200px){
+     .section-portfolio{
+         width: 700px;
+         .grid-container{
+             .grid-item{
+                 margin-top: 100px;
+             }
+         }
+     }
+ }
+ @media screen and (max-width:700px){
+     .section-portfolio{
+         width: 400px;
+     }
+ }
+ @media screen and (max-width:400px){
+    .section-portfolio{
+        width: 320px;
+    }
+ }

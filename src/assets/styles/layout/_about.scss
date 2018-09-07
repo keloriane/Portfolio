@@ -1,0 +1,192 @@
+@import'../modules/_variables.scss';
+@media screen and (max-width:320px){
+    .ref-container{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:320px){
+    .about-section{
+        height: 600px;
+    }
+    .section{
+        
+        margin: 0 auto;
+        height: 800px;
+        .ref-container{
+            
+            
+
+            .title-container{
+                z-index: 2;
+                margin-left: 0;
+                h3{
+                    font-size: 5rem;
+                    color: $blue;
+                    margin-left: 0;
+                    font-weight: normal;
+                }
+            }
+            
+            .line{
+                display: none
+            }
+            .about-text{
+                margin: 50px auto ;
+                width: 301px;
+                .description{
+                    font-size: 16px;
+                    line-height: 125%;  
+                    color: #60646C;
+                }
+            }
+
+        }
+        .layout-content{
+           
+                z-index: 0;
+                margin-top: 50px;
+                position: absolute;
+                max-width: 498px;
+                height: 400px;
+                width: 100%;
+             
+                background: $blue;
+               
+                
+                
+            } 
+                    .profil-container{
+                        
+                        z-index: 1;
+                      
+                        
+                        overflow: hidden;
+                        .img-container{
+                            width: 320px;
+                        }
+                        .profile{
+                       
+                          
+                        }
+                    }
+
+        }
+    }
+
+
+@media screen and(min-width:375px){
+    .line{
+        display: block;
+        height: 25px;
+        width: 100px;
+        background-color: $yellow;
+    }
+}   
+@media screen and(min-width:480px){
+  
+    .section{
+        width: 480px;
+    }
+}   
+@media screen and(min-width:834px){
+    .section{
+        display: flex;
+        flex-direction: row;
+        width: 834px;
+        position:relative;
+        .profile-container{
+            position: absolute;
+            
+        }
+      
+        .ref-container{
+            position: relative;
+            .about-text{
+                margin-top: 150px;
+            }
+            .title-container{
+                position: absolute;
+                left: 107px;
+                width: 370px;
+                .presentation{
+                    display: inline-block;
+                    background: #fff;
+                }
+                .presentationName{
+                    display: inline-block;
+                    background: #fff;
+                    
+                }
+                .title-container{
+                    margin-left: 207px;
+                    text-transform: uppercase;
+                    color: $blue;
+                
+                }
+            }
+        }
+        .layout-content{
+            display: block;
+            position: absolute;
+            
+            background: $blue;
+            right: 19px;
+
+           
+
+        }
+        .profil-container{
+            overflow: hidden;
+            width: auto;
+            height: auto;
+            .img-container{
+                max-width: 500px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1440px){
+    .about-section{
+        height: 600px;
+    }
+    .layout-content{
+        display: block;
+        position: absolute;
+        
+     
+        background: #0E263C;
+        right: 67px;
+        top: -20px;
+        z-index: -1;
+
+    }
+    
+}
+
+.profil-container{
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    .img-container{
+       
+        overflow: hidden;
+
+    }
+}
+
+
+@media screen and (max-width:820px){
+    .layout-content{
+        display: none;
+    }
+}
+@media screen and (max-width:490px){
+    .section .profil-container .img-container{
+        width: 320px;
+        img{
+            width: 100%;
+        }
+    }
+}

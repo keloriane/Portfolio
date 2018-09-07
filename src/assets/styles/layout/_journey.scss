@@ -1,0 +1,37 @@
+
+@media screen and (min-width:960px){
+.section-journey{
+    width: 1000px;
+}
+}
+
+.ref-container{
+    .journey-title{
+        width: 400px;
+        overflow: hidden;
+        .emphase{
+            background-color: #fff;
+            text-transform: uppercase;
+            word-wrap: none;
+            width: 100%;
+          
+        }
+    }
+}
+
+
+.image-content{
+    position: absolute;
+    right: 0;
+    z-index:-1;
+    overflow: hidden;
+    img{
+        width: 100%;
+        max-width: 700px;
+        min-width: 320px;
+    }
+}
+.journey-title{
+    overflow: hidden;
+    word-wrap: none;
+}

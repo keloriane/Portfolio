@@ -1,0 +1,63 @@
+
+
+.describe{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  max-width: 700px;
+  min-width: 320px;
+
+
+}
+.head-line{
+  max-width: 1280px;
+  margin: 0 auto;
+  max-width: 1189px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 370px;
+
+ 
+}
+@import '../../styles/modules/_variables.scss';
+
+.phase-container{
+  max-width: 1340px;
+  width: 100%;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  .title-container{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    justify-content: center;
+    margin: 0 auto;
+    h4{
+      text-transform: uppercase;
+      color: $blue;
+      font-size: 50px;
+    }
+  }
+  .phase-wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .description{
+      display: flex;
+      width: 351px; 
+      align-items: center;
+      align-content: center;
+      margin: 50px;
+    
+      flex-direction: column;
+    }
+  }
+}
+

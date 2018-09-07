@@ -1,0 +1,40 @@
+@import './../modules/variables.scss';
+.footer{
+  margin-top: 200px;
+  background-color: $blue;
+  width: 100%; 
+  height: 270px;
+  .footer-container{
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .footer-items{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    align-items: baseline;
+    a{
+      text-decoration: none;
+    }
+    i{
+      margin-left: 14px;
+      vertical-align: middle;
+      display: inline-block;
+    }
+    p{
+      margin-left: 5px;
+      color: #fff
+    }
+
+  }
+  }
+
+}
+
+.bulletContainer{
+  overflow: hidden;
+  transform-origin: left;
+}
