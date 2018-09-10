@@ -7,6 +7,22 @@
    
 }
 
+@media screen and (max-width: 834px){
+  .bg-divide{
+    display: none;
+  }
+  .layout-content{
+    display: none;
+  }
+
+}
+@media screen and (max-width: 540px){
+  .canvas-container{
+    display: none;
+  }
+}
+
+
 .bg-divide-1{
   left:16.66%;
 }

@@ -16,6 +16,11 @@ export default class Skills extends Component {
               </div>
                 </div>
                 <div className="tech">
+                <i className="fab fa-react"></i>
+                <div>
+              </div>
+                </div>
+                <div className="tech">
                 <i className="fab fa-vuejs"></i>
                 </div>
                 <div className="tech">
