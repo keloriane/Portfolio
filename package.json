@@ -69,7 +69,7 @@
     "test": "node scripts/test.js --env=jsdom",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
